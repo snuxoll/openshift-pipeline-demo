@@ -1,0 +1,10 @@
+kind: "BuildConfig"
+apiVersion: "v1"
+metadata:
+  name: "demo"
+spec:
+  source:
+    git:
+      uri: "https://github.com/snuxoll/openshift-pipeline-demo.git"
+  strategy:
+    jenkinsPipelineStrategy:
