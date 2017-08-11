@@ -1,4 +1,4 @@
-node('agent') {
+node('maven') {
     stage 'build'
     openshiftBuild(buildConfig: 'demo')
     stage 'test'
